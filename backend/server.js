@@ -35,10 +35,10 @@ const PORT = process.env.PORT || 8000;
 
 // Please don't spam my database :)
 const pool = mysql.createPool({
-	host: '***REMOVED***',
-	user: '***REMOVED***',
-	password: '***REMOVED***',
-	database: '***REMOVED***',
+	host: 'REMOVED',
+	user: 'REMOVED',
+	password: 'REMOVED',
+	database: 'REMOVED',
 	multipleStatements: true
 });
 

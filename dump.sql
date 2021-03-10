@@ -1,6 +1,6 @@
 -- MariaDB dump 10.17  Distrib 10.4.11-MariaDB, for Win64 (AMD64)
 --
--- Host: ***REMOVED***    Database: ***REMOVED***
+-- Host: us-cdbr-east-03.cleardb.com    Database: heroku_004742f18b7d829
 -- ------------------------------------------------------
 -- Server version	5.6.50-log
 
@@ -124,7 +124,7 @@ INSERT INTO `quiz` VALUES (204,'Solar System'),(214,'Math');
 UNLOCK TABLES;
 
 --
--- Dumping routines for database '***REMOVED***'
+-- Dumping routines for database 'heroku_004742f18b7d829'
 --
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
