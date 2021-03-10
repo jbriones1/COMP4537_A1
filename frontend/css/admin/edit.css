@@ -1,0 +1,39 @@
+.question-background {
+	text-align: left;
+	background-color: rgba(152, 210, 255, 0.398);
+	padding: 1em;
+	margin: 2em 2em;
+	border-radius: 25px;
+	max-width: 50%;
+}
+
+textarea {
+	width: 50%;
+	resize: none;
+	margin-bottom: 2em;
+}
+
+.choice {
+	width: 80%;
+	display: inline-block !important;
+}
+
+#quiz-name, #no-questions{
+	text-align: center;
+}
+
+.choice {
+	margin-bottom: 1em;
+}
+
+input {
+	margin-left: 1em;
+}
+
+.hidden {
+	display: none !important;
+}
+
+.btn-info {
+	margin: 1em 0 1em 1em;
+}

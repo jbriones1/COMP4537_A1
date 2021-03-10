@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	<link rel="stylesheet" href="../../css/admin/edit.css" />
+	<title>Admin</title>
+</head>
+
+<body>
+	<a href="../index.html"><button class="btn btn-info">Index</button></a>
+	<a href="../admin/index.html"><button class="btn btn-info">Quizzes</button></a>
+	<div id="question-maker" class="question-background">
+		<button id="btn-maker-visibility" class="btn btn-primary" type="button">Hide</button>
+		<h1>Question Maker</h1>
+		<textarea id="question-body" class="form-control" placeholder="Question"></textarea>
+		<div id="maker-choices">
+			<div><input type="radio" name="answer-radio" /><input class="maker choice form-control" type="text" placeholder="A" /></div>
+			<div><input type="radio" name="answer-radio" /><input class="maker choice form-control" type="text" placeholder="B" /></div>
+			<div><input type="radio" name="answer-radio" /><input class="maker choice form-control" type="text" placeholder="C" /></div>
+		</div>
+		<br>
+		<div id="maker-buttons">
+			<button id="btn-remove" class="btn btn-primary" type="button" title="Remove last choice">-</button>
+			<button id="btn-add" class="btn btn-primary" type="button" title="Add a choice">+</button>
+		</div>
+		<br>
+		<button id="btn-submit" class="btn btn-success" type="button">Create</button>
+		<button id="btn-clear" class="btn btn-danger" type="button">Clear</button>
+	</div>
+
+	<h1 id="quiz-name"></h1>
+	<p id="no-questions">No questions yet</p>
+	<div id="question-area"></div>
+	<script type="module" src="../../scripts/admin/edit.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+#inner {
+	text-align: center;
+}
+
+#quiz-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn-quiz {
+	margin-top: 1em;
+	width: 500px;
+}
+
+.btn-info {
+	margin: 1em 0 1em 1em;
+}

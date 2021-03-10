@@ -1,0 +1,1 @@
+export const SERVER_URL = 'https://jondreb-a1.herokuapp.com';

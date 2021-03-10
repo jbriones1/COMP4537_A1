@@ -1,0 +1,25 @@
+#outer {
+	max-width: 30vw;
+}
+
+#quiz-list {
+	margin-left: 1em;
+}
+
+h1 {
+	margin-left: 0.75em;
+}
+
+#leaderboard {
+	margin-left: 1em;
+	margin-top: 1em;
+	max-width: 500px;
+}
+
+.score {
+	float: right;
+}
+
+button {
+	margin: 1em;
+}
